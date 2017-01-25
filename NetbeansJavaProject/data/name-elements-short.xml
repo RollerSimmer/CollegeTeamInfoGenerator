@@ -1,0 +1,584 @@
+<?xml version="1.0"?>
+<name-elements>
+    <!-- abbreviated list of name elements -->
+    <city-list>										
+        <city	name="First City"	nick1="First Nick A"	nick2="First Nick B"	weight="200"	state="TX"	northern="1"	southern="1"	western="1"	eastern="1"	/>
+        <city	name="Fairbanks"	nick1=""	nick2=""	weight="2"	state="AK"	northern="0"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Birmingham"	nick1="Magic City"	nick2=""	weight="8"	state="AL"	northern="1"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Phoenix"	nick1="Valley of the Sun"	nick2=""	weight="14"	state="AZ"	northern="0"	southern="1"	western="0"	eastern="0"	/>
+        <city	name="Los Angeles"	nick1="LA"	nick2="City Of Angels"	weight="21"	state="CA"	northern="0"	southern="1"	western="1"	eastern="0"	/>
+        <city	name="Denver"	nick1="Mile High"	nick2=""	weight="11"	state="CO"	northern="1"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Hartford"	nick1=""	nick2=""	weight="8"	state="CT"	northern="1"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Dover"	nick1=""	nick2=""	weight="3"	state="DE"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Miami"	nick1=""	nick2=""	weight="15"	state="FL"	northern="0"	southern="1"	western="0"	eastern="1"	/>
+        <city	name="Atlanta"	nick1="Peachtree City"	nick2=""	weight="15"	state="GA"	northern="1"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Honolulu"	nick1=""	nick2=""	weight="7"	state="HI"	northern="1"	southern="0"	western="1"	eastern="0"	/>
+        <city	name="Des Moines"	nick1=""	nick2=""	weight="6"	state="IA"	northern="0"	southern="1"	western="0"	eastern="0"	/>
+        <city	name="Boise"	nick1="Treasure Valley"	nick2=""	weight="6"	state="ID"	northern="0"	southern="1"	western="1"	eastern="0"	/>
+        <city	name="Chicago"	nick1="Windy City"	nick2="Chitown"	weight="18"	state="IL"	northern="1"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Indianapolis"	nick1="Indy"	nick2=""	weight="10"	state="IN"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Wichita"	nick1=""	nick2=""	weight="6"	state="KS"	northern="0"	southern="1"	western="0"	eastern="0"	/>
+        <city	name="Louisville"	nick1="Derby City"	nick2=""	weight="8"	state="KY"	northern="1"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="New Orleans"	nick1="Big Easy"	nick2=""	weight="8"	state="LA"	northern="0"	southern="1"	western="0"	eastern="1"	/>
+        <city	name="Boston"	nick1="Beantown"	nick2=""	weight="14"	state="MA"	northern="1"	southern="1"	western="0"	eastern="1"	/>
+        <city	name="Portland"	nick1=""	nick2=""	weight="5"	state="ME"	northern="0"	southern="1"	western="1"	eastern="0"	/>
+        <city	name="Detroit"	nick1="Motor City"	nick2=""	weight="13"	state="MI"	northern="0"	southern="1"	western="0"	eastern="1"	/>
+        <city	name="Minneapolis"	nick1="Twin Cities"	nick2=""	weight="12"	state="MN"	northern="0"	southern="1"	western="0"	eastern="1"	/>
+        <city	name="St. Louis"	nick1="Gateway"	nick2=""	weight="11"	state="MO"	northern="0"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Jackson"	nick1=""	nick2=""	weight="6"	state="MS"	northern="0"	southern="0"	western="1"	eastern="0"	/>
+        <city	name="Billings"	nick1=""	nick2=""	weight="3"	state="MT"	northern="0"	southern="1"	western="0"	eastern="0"	/>
+        <city	name="Charlotte"	nick1="Queen City"	nick2=""	weight="11"	state="NC"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Fargo"	nick1=""	nick2=""	weight="3"	state="ND"	northern="0"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Omaha"	nick1=""	nick2=""	weight="7"	state="NE"	northern="0"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Manchester"	nick1=""	nick2=""	weight="5"	state="NH"	northern="0"	southern="1"	western="0"	eastern="0"	/>
+        <city	name="Trenton"	nick1=""	nick2=""	weight="4"	state="NJ"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Albuquerque"	nick1="Duke City"	nick2=""	weight="7"	state="NM"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Las Vegas"	nick1="Vegas"	nick2="Sin City"	weight="10"	state="NV"	northern="0"	southern="1"	western="0"	eastern="1"	/>
+        <city	name="New York City"	nick1="Big Apple"	nick2="NYC"	weight="24"	state="NY"	northern="0"	southern="1"	western="0"	eastern="1"	/>
+        <city	name="Cincinnati"	nick1="Queen City"	nick2=""	weight="10"	state="OH"	northern="0"	southern="1"	western="0"	eastern="1"	/>
+        <city	name="Cleveland"	nick1=""	nick2=""	weight="10"	state="OH"	northern="1"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Columbus"	nick1=""	nick2=""	weight="10"	state="OH"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Oklahoma City"	nick1="OKC"	nick2=""	weight="8"	state="OK"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Portland"	nick1="Rose City"	nick2=""	weight="10"	state="OR"	northern="1"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Philadelphia"	nick1="Philly"	nick2=""	weight="15"	state="PA"	northern="1"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Pittsburgh"	nick1="Steel City"	nick2="Three Rivers"	weight="11"	state="PA"	northern="0"	southern="1"	western="1"	eastern="0"	/>
+        <city	name="Providence"	nick1=""	nick2=""	weight="9"	state="RI"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Greenville"	nick1=""	nick2=""	weight="7"	state="SC"	northern="0"	southern="0"	western="1"	eastern="0"	/>
+        <city	name="Sioux Falls"	nick1=""	nick2=""	weight="3"	state="SD"	northern="0"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Nashville"	nick1="Music City"	nick2=""	weight="9"	state="TN"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Dallas"	nick1="Big D"	nick2="Metroplex"	weight="16"	state="TX"	northern="1"	southern="0"	western="0"	eastern="1"	/>
+        <city	name="Salt Lake City"	nick1="Wasatch Front"	nick2=""	weight="8"	state="UT"	northern="1"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Norfolk"	nick1="Tidewater"	nick2=""	weight="9"	state="VA"	northern="0"	southern="1"	western="0"	eastern="1"	/>
+        <city	name="Burlington"	nick1=""	nick2=""	weight="3"	state="VT"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="Seattle"	nick1="Emerald City"	nick2=""	weight="13"	state="WA"	northern="1"	southern="0"	western="1"	eastern="0"	/>
+        <city	name="Milwaukee"	nick1=""	nick2=""	weight="9"	state="WI"	northern="0"	southern="1"	western="0"	eastern="1"	/>
+        <city	name="Huntington"	nick1=""	nick2=""	weight="4"	state="WV"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+        <city	name="San Juan"	nick1=""	nick2=""	weight="12"	state="PR"	northern="0"	southern="0"	western="0"	eastern="0"	/>
+    </city-list>										
+
+    <state-list>													
+        <state	name="Alabama"	abrv="AL"	nick="Heart of Dixie"	spec-team-nick=""	weight="9"	spanish="4"	mormon="1"	catholic="4"	baptist="29"	methodist="6"	jewish="0"	lutheran="0"	/>
+        <state	name="Alaska"	abrv="AK"	nick="Land of the Midnight Sun"	spec-team-nick=""	weight="2"	spanish="6"	mormon="5"	catholic="7"	baptist="3"	methodist="1"	jewish="1"	lutheran="1"	/>
+        <state	name="Arizona"	abrv="AZ"	nick="Grand Canyon State"	spec-team-nick=""	weight="14"	spanish="30"	mormon="6"	catholic="15"	baptist="2"	methodist="1"	jewish="2"	lutheran="1"	/>
+        <state	name="Arkansas"	abrv="AR"	nick="Natural State"	spec-team-nick=""	weight="6"	spanish="7"	mormon="1"	catholic="4"	baptist="23"	methodist="5"	jewish="0"	lutheran="0"	/>
+        <state	name="California"	abrv="CA"	nick="Golden State"	spec-team-nick=""	weight="76"	spanish="75"	mormon="2"	catholic="27"	baptist="1"	methodist="1"	jewish="3"	lutheran="0"	/>
+        <state	name="Colorado"	abrv="CO"	nick="Rocky Mountain State"	spec-team-nick=""	weight="11"	spanish="21"	mormon="3"	catholic="16"	baptist="1"	methodist="2"	jewish="2"	lutheran="1"	/>
+        <state	name="Connecticut"	abrv="CT"	nick="Constitution State"	spec-team-nick=""	weight="8"	spanish="14"	mormon="0"	catholic="35"	baptist="0"	methodist="1"	jewish="3"	lutheran="1"	/>
+        <state	name="Delaware"	abrv="DE"	nick="First State"	spec-team-nick=""	weight="2"	spanish="9"	mormon="1"	catholic="20"	baptist="1"	methodist="6"	jewish="2"	lutheran="1"	/>
+        <state	name="District of Columbia"	abrv="DC"	nick="Capital"	spec-team-nick=""	weight="2"	spanish="10"	mormon="0"	catholic="13"	baptist="4"	methodist="2"	jewish="4"	lutheran="1"	/>
+        <state	name="Florida"	abrv="FL"	nick="Sunshine State"	spec-team-nick="Seminoles"	weight="40"	spanish="23"	mormon="1"	catholic="13"	baptist="7"	methodist="2"	jewish="4"	lutheran="0"	/>
+        <state	name="Georgia"	abrv="GA"	nick="Peach State"	spec-team-nick=""	weight="20"	spanish="9"	mormon="1"	catholic="6"	baptist="18"	methodist="6"	jewish="1"	lutheran="0"	/>
+        <state	name="Hawaii"	abrv="HI"	nick="Aloha State"	spec-team-nick=""	weight="3"	spanish="10"	mormon="5"	catholic="18"	baptist="1"	methodist="1"	jewish="1"	lutheran="0"	/>
+        <state	name="Idaho"	abrv="ID"	nick="Gem State"	spec-team-nick=""	weight="4"	spanish="12"	mormon="26"	catholic="8"	baptist="1"	methodist="1"	jewish="0"	lutheran="1"	/>
+        <state	name="Illinois"	abrv="IL"	nick="Prairie State"	spec-team-nick="Illini"	weight="26"	spanish="16"	mormon="0"	catholic="28"	baptist="2"	methodist="2"	jewish="2"	lutheran="2"	/>
+        <state	name="Indiana"	abrv="IN"	nick="Hoosier State"	spec-team-nick="Hoosiers"	weight="13"	spanish="6"	mormon="1"	catholic="12"	baptist="2"	methodist="5"	jewish="0"	lutheran="1"	/>
+        <state	name="Iowa"	abrv="IA"	nick="Hawkeye State"	spec-team-nick="Hawkeyes"	weight="7"	spanish="5"	mormon="1"	catholic="17"	baptist="1"	methodist="8"	jewish="0"	lutheran="8"	/>
+        <state	name="Kansas"	abrv="KS"	nick="Sunflower State"	spec-team-nick=""	weight="6"	spanish="11"	mormon="1"	catholic="15"	baptist="3"	methodist="7"	jewish="1"	lutheran="1"	/>
+        <state	name="Kentucky"	abrv="KY"	nick="Bluegrass State"	spec-team-nick=""	weight="9"	spanish="3"	mormon="1"	catholic="8"	baptist="23"	methodist="4"	jewish="0"	lutheran="0"	/>
+        <state	name="Louisiana"	abrv="LA"	nick="Pelican State"	spec-team-nick=""	weight="10"	spanish="5"	mormon="1"	catholic="26"	baptist="16"	methodist="3"	jewish="0"	lutheran="0"	/>
+        <state	name="Maine"	abrv="ME"	nick="Pine Tree State"	spec-team-nick=""	weight="3"	spanish="1"	mormon="1"	catholic="14"	baptist="0"	methodist="2"	jewish="1"	lutheran="0"	/>
+        <state	name="Maryland"	abrv="MD"	nick="Old Line State"	spec-team-nick=""	weight="12"	spanish="9"	mormon="1"	catholic="15"	baptist="3"	methodist="4"	jewish="4"	lutheran="1"	/>
+        <state	name="Massachusetts"	abrv="MA"	nick="Bay State"	spec-team-nick="Minutemen"	weight="14"	spanish="10"	mormon="0"	catholic="45"	baptist="0"	methodist="1"	jewish="4"	lutheran="0"	/>
+        <state	name="Michigan"	abrv="MI"	nick="Great Lakes State"	spec-team-nick=""	weight="20"	spanish="5"	mormon="0"	catholic="17"	baptist="1"	methodist="2"	jewish="1"	lutheran="1"	/>
+        <state	name="Minnesota"	abrv="MN"	nick="North Star State"	spec-team-nick=""	weight="11"	spanish="5"	mormon="1"	catholic="22"	baptist="0"	methodist="2"	jewish="1"	lutheran="14"	/>
+        <state	name="Mississippi"	abrv="MS"	nick="Magnolia State"	spec-team-nick=""	weight="6"	spanish="3"	mormon="1"	catholic="4"	baptist="31"	methodist="7"	jewish="0"	lutheran="0"	/>
+        <state	name="Missouri"	abrv="MO"	nick="Show-Me State"	spec-team-nick=""	weight="12"	spanish="4"	mormon="1"	catholic="12"	baptist="13"	methodist="4"	jewish="1"	lutheran="0"	/>
+        <state	name="Montana"	abrv="MT"	nick="Treasure State"	spec-team-nick=""	weight="2"	spanish="3"	mormon="5"	catholic="13"	baptist="1"	methodist="2"	jewish="0"	lutheran="4"	/>
+        <state	name="Nebraska"	abrv="NE"	nick="Cornhusker State"	spec-team-nick="Cornhuskers"	weight="4"	spanish="10"	mormon="1"	catholic="20"	baptist="1"	methodist="6"	jewish="0"	lutheran="6"	/>
+        <state	name="Nevada"	abrv="NV"	nick="Silver State"	spec-team-nick=""	weight="6"	spanish="27"	mormon="6"	catholic="17"	baptist="2"	methodist="0"	jewish="4"	lutheran="0"	/>
+        <state	name="New Hampshire"	abrv="NH"	nick="Granite State"	spec-team-nick=""	weight="3"	spanish="3"	mormon="1"	catholic="1"	baptist="1"	methodist="1"	jewish="1"	lutheran="1"	/>
+        <state	name="New Jersey"	abrv="NJ"	nick="Garden State"	spec-team-nick=""	weight="18"	spanish="19"	mormon="0"	catholic="37"	baptist="0"	methodist="2"	jewish="6"	lutheran="1"	/>
+        <state	name="New Mexico"	abrv="NM"	nick="Land of Enchantment"	spec-team-nick=""	weight="5"	spanish="75"	mormon="3"	catholic="28"	baptist="6"	methodist="2"	jewish="1"	lutheran="0"	/>
+        <state	name="New York"	abrv="NY"	nick="Empire State"	spec-team-nick=""	weight="40"	spanish="18"	mormon="0"	catholic="32"	baptist="0"	methodist="2"	jewish="9"	lutheran="1"	/>
+        <state	name="North Carolina"	abrv="NC"	nick="Tar Heel State"	spec-team-nick="Tarheels"	weight="20"	spanish="9"	mormon="1"	catholic="4"	baptist="16"	methodist="7"	jewish="0"	lutheran="1"	/>
+        <state	name="North Dakota"	abrv="ND"	nick="Peace Garden State"	spec-team-nick=""	weight="2"	spanish="3"	mormon="1"	catholic="25"	baptist="0"	methodist="3"	jewish="0"	lutheran="24"	/>
+        <state	name="Ohio"	abrv="OH"	nick="Buckeye State"	spec-team-nick="Buckeyes"	weight="23"	spanish="3"	mormon="1"	catholic="17"	baptist="1"	methodist="4"	jewish="1"	lutheran="2"	/>
+        <state	name="Oklahoma"	abrv="OK"	nick="Sooner State"	spec-team-nick="Sooners"	weight="8"	spanish="9"	mormon="1"	catholic="5"	baptist="24"	methodist="8"	jewish="0"	lutheran="0"	/>
+        <state	name="Oregon"	abrv="OR"	nick="Beaver State"	spec-team-nick="Beavers"	weight="8"	spanish="12"	mormon="4"	catholic="10"	baptist="1"	methodist="1"	jewish="1"	lutheran="1"	/>
+        <state	name="Pennsylvania"	abrv="PA"	nick="Keystone State"	spec-team-nick=""	weight="26"	spanish="6"	mormon="0"	catholic="28"	baptist="0"	methodist="5"	jewish="2"	lutheran="4"	/>
+        <state	name="Puerto Rico"	abrv="PR"	nick="Isla del Encanto"	spec-team-nick=""	weight="7"	spanish="100"	mormon="1"	catholic="80"	baptist="1"	methodist="1"	jewish="1"	lutheran="1"	/>
+        <state	name="Rhode Island"	abrv="RI"	nick="Ocean State"	spec-team-nick=""	weight="3"	spanish="13"	mormon="0"	catholic="44"	baptist="0"	methodist="1"	jewish="2"	lutheran="0"	/>
+        <state	name="South Carolina"	abrv="SC"	nick="Palmetto State"	spec-team-nick=""	weight="10"	spanish="5"	mormon="1"	catholic="4"	baptist="20"	methodist="6"	jewish="0"	lutheran="1"	/>
+        <state	name="South Dakota"	abrv="SD"	nick="Mount Rushmore State"	spec-team-nick=""	weight="2"	spanish="3"	mormon="1"	catholic="18"	baptist="1"	methodist="4"	jewish="0"	lutheran="14"	/>
+        <state	name="Tennessee"	abrv="TN"	nick="Volunteer State"	spec-team-nick="Volunteers"	weight="13"	spanish="5"	mormon="1"	catholic="4"	baptist="23"	methodist="6"	jewish="0"	lutheran="0"	/>
+        <state	name="Texas"	abrv="TX"	nick="Lone Star State"	spec-team-nick=""	weight="54"	spanish="60"	mormon="1"	catholic="19"	baptist="15"	methodist="4"	jewish="1"	lutheran="0"	/>
+        <state	name="Utah"	abrv="UT"	nick="Beehive State"	spec-team-nick="Utes"	weight="6"	spanish="13"	mormon="69"	catholic="6"	baptist="0"	methodist="0"	jewish="0"	lutheran="0"	/>
+        <state	name="Vermont"	abrv="VT"	nick="Green Mountain State"	spec-team-nick=""	weight="2"	spanish="2"	mormon="1"	catholic="21"	baptist="0"	methodist="2"	jewish="1"	lutheran="0"	/>
+        <state	name="Virginia"	abrv="VA"	nick="Old Dominion"	spec-team-nick=""	weight="17"	spanish="8"	mormon="1"	catholic="8"	baptist="10"	methodist="6"	jewish="1"	lutheran="1"	/>
+        <state	name="Washington"	abrv="WA"	nick="Evergreen State"	spec-team-nick=""	weight="14"	spanish="12"	mormon="4"	catholic="12"	baptist="1"	methodist="1"	jewish="1"	lutheran="1"	/>
+        <state	name="West Virginia"	abrv="WV"	nick="Mountain State"	spec-team-nick="Mountaineers"	weight="4"	spanish="1"	mormon="1"	catholic="5"	baptist="2"	methodist="7"	jewish="0"	lutheran="1"	/>
+        <state	name="Wisconsin"	abrv="WI"	nick="Cheese State"	spec-team-nick=""	weight="12"	spanish="6"	mormon="0"	catholic="25"	baptist="0"	methodist="2"	jewish="1"	lutheran="7"	/>
+        <state	name="Wyoming"	abrv="WY"	nick="Equality State"	spec-team-nick=""	weight="2"	spanish="10"	mormon="11"	catholic="11"	baptist="3"	methodist="2"	jewish="0"	lutheran="1"	/>
+    </state-list>													
+
+    <spanish-surname-list>			
+        <surname	name="Rodriguez"	weight="804240"	/>
+        <surname	name="Martinez"	weight="775072"	/>
+        <surname	name="Hernandez"	weight="706372"	/>
+        <surname	name="Lopez"	weight="621536"	/>
+        <surname	name="Gonzalez"	weight="597718"	/>
+        <surname	name="Perez"	weight="488521"	/>
+        <surname	name="Sanchez"	weight="441242"	/>
+        <surname	name="Ramirez"	weight="388987"	/>
+        <surname	name="Torres"	weight="325169"	/>
+        <surname	name="Flores"	weight="312615"	/>
+        <surname	name="Rivera"	weight="299463"	/>
+        <surname	name="Gomez"	weight="263590"	/>
+        <surname	name="Diaz"	weight="251772"	/>
+        <surname	name="Reyes"	weight="232511"	/>
+        <surname	name="Cruz"	weight="231065"	/>
+        <surname	name="Morales"	weight="217642"	/>
+        <surname	name="Ortiz"	weight="214683"	/>
+        <surname	name="Gutierrez"	weight="212905"	/>
+        <surname	name="Gonzales"	weight="193934"	/>
+        <surname	name="Ramos"	weight="193096"	/>
+        <surname	name="Chavez"	weight="185865"	/>
+        <surname	name="Ruiz"	weight="175429"	/>
+        <surname	name="Alvarez"	weight="168817"	/>
+        <surname	name="Mendoza"	weight="168567"	/>
+        <surname	name="Castillo"	weight="165473"	/>
+        <surname	name="Vasquez"	weight="159989"	/>
+        <surname	name="Jimenez"	weight="157475"	/>
+        <surname	name="Romero"	weight="153772"	/>
+        <surname	name="Moreno"	weight="146088"	/>
+        <surname	name="Herrera"	weight="140786"	/>
+        <surname	name="Medina"	weight="139353"	/>
+        <surname	name="Fernandez"	weight="139302"	/>
+        <surname	name="Castro"	weight="133254"	/>
+        <surname	name="Aguilar"	weight="126399"	/>
+        <surname	name="Silva"	weight="126164"	/>
+        <surname	name="Garza"	weight="124130"	/>
+        <surname	name="Vargas"	weight="123952"	/>
+        <surname	name="Guzman"	weight="118390"	/>
+        <surname	name="Munoz"	weight="117774"	/>
+        <surname	name="Salazar"	weight="113468"	/>
+        <surname	name="Mendez"	weight="112736"	/>
+        <surname	name="Soto"	weight="106631"	/>
+        <surname	name="Santos"	weight="98993"	/>
+        <surname	name="Delgado"	weight="98675"	/>
+        <surname	name="Valdez"	weight="98610"	/>
+        <surname	name="Pena"	weight="98345"	/>
+        <surname	name="Rios"	weight="96569"	/>
+        <surname	name="Sandoval"	weight="96303"	/>
+        <surname	name="Guerrero"	weight="94152"	/>
+        <surname	name="Alvarado"	weight="93723"	/>
+        <surname	name="Ortega"	weight="93131"	/>
+        <surname	name="Estrada"	weight="92831"	/>
+        <surname	name="Contreras"	weight="92660"	/>
+        <surname	name="Santiago"	weight="90967"	/>
+        <surname	name="Nunez"	weight="90208"	/>
+        <surname	name="Maldonado"	weight="88016"	/>
+        <surname	name="Vega"	weight="87728"	/>
+        <surname	name="Vazquez"	weight="84926"	/>
+        <surname	name="Dominguez"	weight="83731"	/>
+    </spanish-surname-list>			
+			
+    <american-surname-list>			
+        <surname	name="Smith"	weight="2376206"	/>
+        <surname	name="Johnson"	weight="1857160"	/>
+        <surname	name="Williams"	weight="1534042"	/>
+        <surname	name="Brown"	weight="1380145"	/>
+        <surname	name="Jones"	weight="1362755"	/>
+        <surname	name="Miller"	weight="1127803"	/>
+        <surname	name="Davis"	weight="1072335"	/>
+        <surname	name="Wilson"	weight="783051"	/>
+        <surname	name="Anderson"	weight="762394"	/>
+        <surname	name="Taylor"	weight="720370"	/>
+        <surname	name="Thomas"	weight="710696"	/>
+        <surname	name="Moore"	weight="698671"	/>
+        <surname	name="Martin"	weight="672711"	/>
+        <surname	name="Jackson"	weight="666125"	/>
+        <surname	name="Thompson"	weight="644368"	/>
+        <surname	name="White"	weight="639515"	/>
+        <surname	name="Lee"	weight="605860"	/>
+        <surname	name="Harris"	weight="593542"	/>
+        <surname	name="Clark"	weight="548369"	/>
+        <surname	name="Lewis"	weight="509930"	/>
+        <surname	name="Robinson"	weight="503028"	/>
+        <surname	name="Walker"	weight="501307"	/>
+        <surname	name="Hall"	weight="473568"	/>
+        <surname	name="Young"	weight="465948"	/>
+        <surname	name="Allen"	weight="463368"	/>
+        <surname	name="Wright"	weight="440367"	/>
+        <surname	name="King"	weight="438986"	/>
+        <surname	name="Scott"	weight="420091"	/>
+        <surname	name="Green"	weight="413477"	/>
+        <surname	name="Baker"	weight="413351"	/>
+        <surname	name="Adams"	weight="413086"	/>
+        <surname	name="Nelson"	weight="412236"	/>
+        <surname	name="Hill"	weight="411770"	/>
+        <surname	name="Campbell"	weight="371953"	/>
+        <surname	name="Mitchell"	weight="367433"	/>
+        <surname	name="Roberts"	weight="366215"	/>
+        <surname	name="Carter"	weight="362548"	/>
+        <surname	name="Phillips"	weight="351848"	/>
+        <surname	name="Evans"	weight="342237"	/>
+        <surname	name="Turner"	weight="335663"	/>
+        <surname	name="Parker"	weight="324246"	/>
+        <surname	name="Collins"	weight="317848"	/>
+        <surname	name="Edwards"	weight="317070"	/>
+        <surname	name="Stewart"	weight="312899"	/>
+        <surname	name="Morris"	weight="311754"	/>
+        <surname	name="Nguyen"	weight="310125"	/>
+        <surname	name="Murphy"	weight="300501"	/>
+        <surname	name="Cook"	weight="294795"	/>
+        <surname	name="Rogers"	weight="294403"	/>
+        <surname	name="Morgan"	weight="276400"	/>
+        <surname	name="Peterson"	weight="275041"	/>
+        <surname	name="Cooper"	weight="270097"	/>
+        <surname	name="Reed"	weight="267443"	/>
+        <surname	name="Bailey"	weight="265916"	/>
+        <surname	name="Bell"	weight="264752"	/>
+        <surname	name="Kelly"	weight="260385"	/>
+        <surname	name="Howard"	weight="254779"	/>
+    </american-surname-list>			
+    
+    <american-male-name-list>					
+		<first-name	name="Michael"	weight="663168"	/>
+		<first-name	name="Christopher"	weight="554514"	/>
+		<first-name	name="Matthew"	weight="458638"	/>
+		<first-name	name="Joshua"	weight="396369"	/>
+		<first-name	name="David"	weight="383319"	/>
+		<first-name	name="James"	weight="356153"	/>
+		<first-name	name="Daniel"	weight="345196"	/>
+		<first-name	name="Robert"	weight="321435"	/>
+		<first-name	name="John"	weight="320837"	/>
+		<first-name	name="Joseph"	weight="299170"	/>
+		<first-name	name="Jason"	weight="291861"	/>
+		<first-name	name="Justin"	weight="289658"	/>
+		<first-name	name="Andrew"	weight="284841"	/>
+		<first-name	name="Ryan"	weight="278698"	/>
+		<first-name	name="William"	weight="248107"	/>
+		<first-name	name="Brian"	weight="233822"	/>
+		<first-name	name="Brandon"	weight="232073"	/>
+		<first-name	name="Jonathan"	weight="229754"	/>
+		<first-name	name="Nicholas"	weight="223151"	/>
+		<first-name	name="Anthony"	weight="211687"	/>
+		<first-name	name="Eric"	weight="204065"	/>
+		<first-name	name="Adam"	weight="194908"	/>
+		<first-name	name="Kevin"	weight="188516"	/>
+		<first-name	name="Thomas"	weight="177608"	/>
+		<first-name	name="Steven"	weight="177305"	/>
+		<first-name	name="Timothy"	weight="172734"	/>
+		<first-name	name="Richard"	weight="154610"	/>
+		<first-name	name="Jeremy"	weight="153346"	/>
+		<first-name	name="Jeffrey"	weight="144723"	/>
+    </american-male-name-list>					
+
+
+    <spanish-male-name-list>					
+		<first-name	name="Juan"	weight="51351"	/>
+		<first-name	name="Jose"	weight="86497"	/>
+		<first-name	name="Francisco"	weight="20041"	/>
+		<first-name	name="Jesus"	weight="27351"	/>
+		<first-name	name="Antonio"	weight="41565"	/>
+		<first-name	name="Alejandro"	weight="15266"	/>
+		<first-name	name="Pedro"	weight="12156"	/>
+		<first-name	name="Manuel"	weight="19954"	/>
+		<first-name	name="Ricardo"	weight="23052"	/>
+		<first-name	name="Daniel"	weight="345196"	/>
+		<first-name	name="Fernando"	weight="13171"	/>
+		<first-name	name="Jorge"	weight="21683"	/>
+		<first-name	name="Roberto"	weight="17796"	/>
+		<first-name	name="Carlos"	weight="41406"	/>
+		<first-name	name="Eduardo"	weight="11417"	/>
+		<first-name	name="Javier"	weight="14455"	/>
+		<first-name	name="Miguel"	weight="25499"	/>
+		<first-name	name="Martin"	weight="23173"	/>
+		<first-name	name="Rafael"	weight="12240"	/>
+		<first-name	name="Marco"	weight="9778"	/>
+		<first-name	name="Antonio"	weight="41565"	/>
+		<first-name	name="Raul"	weight="12106"	/>
+		<first-name	name="Arturo"	weight="7765"	/>
+		<first-name	name="David"	weight="383319"	/>
+		<first-name	name="Gerardo"	weight="7229"	/>
+		<first-name	name="Manuel"	weight="19954"	/>
+		<first-name	name="Gabriel"	weight="32265"	/>
+		<first-name	name="Manuel"	weight="19954"	/>
+		<first-name	name="Mateo"	weight="363"	/>
+		<first-name	name="Leandro"	weight="432"	/>
+		<first-name	name="Diego"	weight="3872"	/>
+		<first-name	name="Bernardino"	weight="214"	/>
+		<first-name	name="Bernardo"	weight="1363"	/>
+		<first-name	name="Fernando"	weight="13171"	/>
+		<first-name	name="Andreas"	weight="1054"	/>
+		<first-name	name="Manuel"	weight="19954"	/>
+		<first-name	name="Adrian"	weight="28091"	/>
+		<first-name	name="Angelo"	weight="6154"	/>
+		<first-name	name="Bruno"	weight="705"	/>
+		<first-name	name="Cristobal"	weight="894"	/>
+		<first-name	name="Cipriano"	weight="204"	/>
+		<first-name	name="Domingo"	weight="1325"	/>
+		<first-name	name="Dimas"	weight="228"	/>
+    </spanish-male-name-list>					
+
+
+    <american-fem-name-list>					
+		<first-name	name="Jessica"	weight="469310"	/>
+		<first-name	name="Jennifer"	weight="440720"	/>
+		<first-name	name="Amanda"	weight="369613"	/>
+		<first-name	name="Ashley"	weight="352050"	/>
+		<first-name	name="Sarah"	weight="272409"	/>
+		<first-name	name="Stephanie"	weight="218059"	/>
+		<first-name	name="Melissa"	weight="217850"	/>
+		<first-name	name="Nicole"	weight="210399"	/>
+		<first-name	name="Elizabeth"	weight="198824"	/>
+		<first-name	name="Heather"	weight="191798"	/>
+		<first-name	name="Tiffany"	weight="158561"	/>
+		<first-name	name="Michelle"	weight="153914"	/>
+		<first-name	name="Amber"	weight="153895"	/>
+		<first-name	name="Megan"	weight="153457"	/>
+		<first-name	name="Amy"	weight="150611"	/>
+		<first-name	name="Rachel"	weight="146602"	/>
+		<first-name	name="Kimberly"	weight="146419"	/>
+		<first-name	name="Christina"	weight="145929"	/>
+		<first-name	name="Lauren"	weight="145075"	/>
+		<first-name	name="Crystal"	weight="140966"	/>
+		<first-name	name="Brittany"	weight="140796"	/>
+		<first-name	name="Rebecca"	weight="136174"	/>
+		<first-name	name="Laura"	weight="134514"	/>
+		<first-name	name="Danielle"	weight="134315"	/>
+		<first-name	name="Emily"	weight="131707"	/>
+		<first-name	name="Samantha"	weight="121064"	/>
+		<first-name	name="Angela"	weight="116541"	/>
+		<first-name	name="Erin"	weight="115778"	/>
+		<first-name	name="Kelly"	weight="109503"	/>
+		<first-name	name="Sara"	weight="104604"	/>
+		<first-name	name="Lisa"	weight="102560"	/>
+		<first-name	name="Katherine"	weight="99104"	/>
+		<first-name	name="Andrea"	weight="98210"	/>
+		<first-name	name="Jamie"	weight="96525"	/>
+		<first-name	name="Mary"	weight="95774"	/>
+		<first-name	name="Erica"	weight="93117"	/>
+		<first-name	name="Courtney"	weight="84272"	/>
+		<first-name	name="Kristen"	weight="83210"	/>
+		<first-name	name="Shannon"	weight="78398"	/>
+		<first-name	name="April"	weight="75925"	/>
+		<first-name	name="Katie"	weight="72808"	/>
+    </american-fem-name-list>					
+
+    <spanish-fem-name-list>					
+		<first-name	name="Maria"	weight="65559"	/>
+		<first-name	name="Margarita"	weight="4293"	/>
+		<first-name	name="Margarita"	weight="4293"	/>
+		<first-name	name="Veronica"	weight="39198"	/>
+		<first-name	name="Elizabetha"	weight="1000"	/>
+		<first-name	name="Alejandra"	weight="5533"	/>
+		<first-name	name="Leticia"	weight="8154"	/>
+		<first-name	name="Gabriela"	weight="7804"	/>
+		<first-name	name="Patricia"	weight="45113"	/>
+		<first-name	name="Josefina"	weight="1365"	/>
+		<first-name	name="Rosa María"	weight="1000"	/>
+		<first-name	name="Rosa"	weight="10768"	/>
+		<first-name	name="Alicia"	weight="66946"	/>
+		<first-name	name="Teresa"	weight="23392"	/>
+		<first-name	name="Francisca"	weight="1381"	/>
+		<first-name	name="Adriana"	weight="12604"	/>
+		<first-name	name="Yolanda"	weight="11386"	/>
+		<first-name	name="Martha"	weight="13010"	/>
+		<first-name	name="Silvia"	weight="3241"	/>
+		<first-name	name="Gloria"	weight="10423"	/>
+		<first-name	name="Araceli"	weight="3226"	/>
+		<first-name	name="Catalina"	weight="1296"	/>
+		<first-name	name="Maria"	weight="65559"	/>
+		<first-name	name="Isabella"	weight="550"	/>
+		<first-name	name="Clara"	weight="3639"	/>
+		<first-name	name="Cruz"	weight="256"	/>
+		<first-name	name="Rosa"	weight="10768"	/>
+		<first-name	name="Monica"	weight="51815"	/>
+		<first-name	name="Ana"	weight="15463"	/>
+		<first-name	name="Barbara"	weight="19101"	/>
+		<first-name	name="Fe"	weight="1000"	/>
+		<first-name	name="Paula"	weight="11060"	/>
+		<first-name	name="Clarita"	weight="87"	/>
+		<first-name	name="Anita"	weight="8586"	/>
+		<first-name	name="Amalia"	weight="1055"	/>
+		<first-name	name="Brigida"	weight="84"	/>
+		<first-name	name="Catarina"	weight="208"	/>
+		<first-name	name="Dia"	weight="277"	/>
+		<first-name	name="Donna"	weight="13030"	/>
+		<first-name	name="Eugenia"	weight="1426"	/>
+		<first-name	name="Eulalia"	weight="133"	/>
+		<first-name	name="Gertrudes"	weight="1000"	/>
+		<first-name	name="Helena"	weight="2003"	/>
+		<first-name	name="Hermandad"	weight="1000"	/>
+		<first-name	name="Ines"	weight="330"	/>
+		<first-name	name="Igia"	weight="1000"	/>
+    </spanish-fem-name-list>					
+
+    <specialty-list>					
+		<specialty	suffix="State"	weight="100"	/>
+		<specialty	suffix="A&amp;M"	weight="15"	/>
+		<specialty	suffix="Tech"	weight="30"	/>
+		<specialty	suffix="Poly"	weight="5"	/>
+		<specialty	suffix="School of Mines"	weight="2"	/>
+		<specialty	suffix="A&amp;T"	weight="1"	/>
+    </specialty-list>					
+
+    <symbol-adjective-list>					
+		<symbol-adjective	term="Holy"	weight="3"	/>
+		<symbol-adjective	term="Blessed"	weight="2"	/>
+		<symbol-adjective	term="Notre"	weight="1"	/>
+		<symbol-adjective	term="Our"	weight="1"	/>
+		<symbol-adjective	term="Sacred"	weight="2"	/>
+		<symbol-adjective	term="Eternal"	weight="1"	/>
+    </symbol-adjective-list>					
+					
+    <symbol-noun-list>					
+		<symbol-noun	term="Trinity"	weight="1"	/>
+		<symbol-noun	term="Cross"	weight="3"	/>
+		<symbol-noun	term="Virgin"	weight="1"	/>
+		<symbol-noun	term="Dame"	weight="1"	/>
+		<symbol-noun	term="Lady"	weight="1"	/>
+		<symbol-noun	term="Sepulcre"	weight="1"	/>
+		<symbol-noun	term="Star"	weight="2"	/>
+		<symbol-noun	term="Heart"	weight="1"	/>
+		<symbol-noun	term="Water"	weight="2"	/>
+    </symbol-noun-list>					
+
+    <team-adjective-list>									
+		<team-adjective	word=""	weight="800"	atype="action"	red=""	green=""	blue=""	/>
+		<team-adjective	word="Screaming"	weight="1"	atype="action"	red=""	green=""	blue=""	/>
+		<team-adjective	word="Running"	weight="3"	atype="action"	red=""	green=""	blue=""	/>
+		<team-adjective	word="Fighting"	weight="16"	atype="action"	red=""	green=""	blue=""	/>
+		<team-adjective	word="Thundering"	weight="1"	atype="action"	red=""	green=""	blue=""	/>
+		<team-adjective	word="Battling"	weight="1"	atype="action"	red=""	green=""	blue=""	/>
+		<team-adjective	word="Hustling"	weight="1"	atype="action"	red=""	green=""	blue=""	/>
+		<team-adjective	word="Raging"	weight="1"	atype="action"	red=""	green=""	blue=""	/>
+									
+		<team-adjective	word="Black"	weight="3"	atype="color"	red="3"	green="3"	blue="3"	/>
+		<team-adjective	word="Purple"	weight="3"	atype="color"	red="125"	green="0"	blue="125"	/>
+		<team-adjective	word="Red"	weight="12"	atype="color"	red="240"	green="0"	blue="0"	/>
+		<team-adjective	word="Blue"	weight="5"	atype="color"	red="0"	green="0"	blue="150"	/>
+		<team-adjective	word="Green"	weight="6"	atype="color"	red="0"	green="130"	blue="0"	/>
+		<team-adjective	word="Yellow"	weight="5"	atype="color"	red="240"	green="230"	blue="0"	/>
+		<team-adjective	word="Scarlet"	weight="4"	atype="color"	red="255"	green="36"	blue="0"	/>
+		<team-adjective	word="Crimson"	weight="3"	atype="color"	red="148"	green="0"	blue="0"	/>
+		<team-adjective	word="Orange"	weight="2"	atype="color"	red="250"	green="130"	blue="0"	/>
+		<team-adjective	word="Golden"	weight="30"	atype="color"	red="190"	green="180"	blue="80"	/>
+		<team-adjective	word="Cardinal"	weight="1"	atype="color"	red="196"	green="30"	blue="58"	/>
+		<team-adjective	word="Sun"	weight="2"	atype="color"	red="245"	green="180"	blue="0"	/>
+		<team-adjective	word="Black"	weight="2"	atype="color"	red="0"	green="0"	blue="0"	/>
+		<team-adjective	word="Maroon"	weight="2"	atype="color"	red="120"	green="0"	blue="0"	/>
+    </team-adjective-list>									
+
+    <team-nickname-list>									
+		<team-nickname  word="Eagles"   weight="47" use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Tigers"	weight="32"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Bulldogs"	weight="26"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Wildcats"	weight="21"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Panthers"	weight="20"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Lions"	weight="17"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Bears"	weight="16"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Cougars"	weight="15"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Falcons"	weight="15"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Knights"	weight="14"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Pioneers"	weight="13"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Spartans"	weight="13"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Cardinals"	weight="12"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Bobcats"	weight="10"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Huskies"	weight="10"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Rams"	weight="10"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Vikings"	weight="10"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Yellowjackets"	weight="10"	use-pref-color="yes"	pref-red="240"	pref-green="230"	pref-blue="0"	/>
+		<team-nickname	word="Crusaders"	weight="9"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Raiders"	weight="9"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Warriors"	weight="9"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Mustangs"	weight="8"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Trojans"	weight="8"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Aggies"	weight="7"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Devils"	weight="7"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Hawks"	weight="7"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Hornets"	weight="7"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Owls"	weight="7"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Beavers"	weight="6"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Broncos"	weight="6"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Buccaneers"	weight="6"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Bearcats"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Bison"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Greyhounds"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Grizzlies"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Mavericks"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Mountaineers"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Patriots"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Scots"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Seahawks"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Storm"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Wolves"	weight="5"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Bulls"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Cavaliers"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Colonels"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Coyotes"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Dolphins"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Dragons"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Engineers"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Highlanders"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Jaguars"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Pirates"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Pride"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Quakers"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+		<team-nickname	word="Rebels"	weight="4"	use-pref-color="no"	pref-red=""	pref-green=""	pref-blue=""	/>
+    </team-nickname-list>									
+    
+    <school-operator-list>			
+        <!-- valid types are opublic, oprivate, and omilitary -->
+        <school-operator	type="opublic"	weight="224"	/>
+        <school-operator	type="oprivate"	weight="117"	/>
+        <school-operator	type="omilitary"	weight="5"	/>
+    </school-operator-list>			
+    
+    <color-def-list>				
+      <color-def color="black"	red="3"	green="3"	blue="3"	/>
+      <color-def color="silver"	red="191"	green="191"	blue="191"	/>
+      <color-def color="white"	red="255"	green="255"	blue="255"	/>
+      <color-def color="red"	red="255"	green="26"	blue="26"	/>
+      <color-def color="brown"	red="140"	green="102"	blue="77"	/>
+      <color-def color="tan"	red="191"	green="153"	blue="122"	/>
+      <color-def color="chocolate"	red="84"	green="48"	blue="38"	/>
+      <color-def color="orange"	red="255"	green="158"	blue="26"	/>
+      <color-def color="yellow"	red="255"	green="230"	blue="26"	/>
+      <color-def color="gold"	red="191"	green="184"	blue="102"	/>
+      <color-def color="green"	red="38"	green="171"	blue="13"	/>
+      <color-def color="forest"	red="77"	green="107"	blue="13"	/>
+      <color-def color="aguamarine"	red="51"	green="204"	blue="153"	/>
+      <color-def color="cyan"	red="89"	green="255"	blue="242"	/>
+      <color-def color="turquoise"	red="102"	green="191"	blue="179"	/>
+      <color-def color="azure"	red="26"	green="102"	blue="179"	/>
+      <color-def color="blue"	red="128"	green="26"	blue="179"	/>
+      <color-def color="navy"	red="13"	green="26"	blue="77"	/>
+      <color-def color="teal"	red="102"	green="153"	blue="191"	/>
+      <color-def color="indigo"	red="128"	green="26"	blue="255"	/>
+      <color-def color="purple"	red="102"	green="13"	blue="102"	/>
+      <color-def color="hotpink"	red="230"	green="38"	blue="255"	/>
+      <color-def color="magenta"	red="255"	green="26"	blue="102"	/>
+    </color-def-list>				
+
+    <color-match-table>																								
+      <cmr color="black" weight="10">		
+        <cm color="silver" weight="1"/>	<cm color="white" weight="1"/>	<cm color="red" weight="3"/>				<cm color="orange" weight="2"/>	<cm color="yellow" weight="3"/>	<cm color="gold" weight="3"/>	<cm color="green" weight="1"/>		<cm color="aguamarine" weight="2"/>	<cm color="cyan" weight="1"/>	<cm color="turquoise" weight="2"/>	<cm color="azure" weight="2"/>	<cm color="blue" weight="1"/>		<cm color="teal" weight="2"/>	<cm color="indigo" weight="1"/>	<cm color="purple" weight="2"/>	<cm color="hotpink" weight="1"/>	<cm color="magenta" weight="1"/>	
+      </cmr>
+      <cmr color="silver" weight="9">	<cm color="black" weight="1"/>			<cm color="red" weight="3"/>	<cm color="brown" weight="1"/>		<cm color="chocolate" weight="1"/>	<cm color="orange" weight="1"/>			<cm color="green" weight="3"/>	<cm color="forest" weight="1"/>	<cm color="aguamarine" weight="1"/>			<cm color="azure" weight="3"/>	<cm color="blue" weight="2"/>	<cm color="navy" weight="2"/>	<cm color="teal" weight="1"/>	<cm color="indigo" weight="2"/>	<cm color="purple" weight="2"/>		<cm color="magenta" weight="3"/>	</cmr>
+      <cmr color="white" weight="9">	<cm color="black" weight="1"/>			<cm color="red" weight="3"/>	<cm color="brown" weight="1"/>		<cm color="chocolate" weight="1"/>	<cm color="orange" weight="1"/>			<cm color="green" weight="3"/>	<cm color="forest" weight="2"/>	<cm color="aguamarine" weight="1"/>			<cm color="azure" weight="1"/>	<cm color="blue" weight="3"/>	<cm color="navy" weight="1"/>	<cm color="teal" weight="1"/>	<cm color="indigo" weight="2"/>	<cm color="purple" weight="2"/>	<cm color="hotpink" weight="1"/>	<cm color="magenta" weight="2"/>	</cmr>
+      <cmr color="red" weight="9">	<cm color="black" weight="3"/>	<cm color="silver" weight="3"/>	<cm color="white" weight="3"/>						<cm color="yellow" weight="3"/>	<cm color="gold" weight="3"/>	<cm color="green" weight="1"/>	<cm color="forest" weight="1"/>		<cm color="cyan" weight="1"/>	<cm color="turquoise" weight="1"/>	<cm color="azure" weight="2"/>	<cm color="blue" weight="3"/>	<cm color="navy" weight="1"/>	<cm color="teal" weight="1"/>	<cm color="indigo" weight="1"/>	<cm color="purple" weight="1"/>			</cmr>
+      <cmr color="brown" weight="4">		<cm color="silver" weight="1"/>	<cm color="white" weight="1"/>				<cm color="chocolate" weight="1"/>	<cm color="orange" weight="2"/>	<cm color="yellow" weight="2"/>	<cm color="gold" weight="2"/>	<cm color="green" weight="1"/>	<cm color="forest" weight="1"/>												</cmr>
+      <cmr color="tan" weight="1">											<cm color="green" weight="1"/>	<cm color="forest" weight="1"/>						<cm color="navy" weight="1"/>						</cmr>
+      <cmr color="chocolate" weight="3">		<cm color="silver" weight="1"/>	<cm color="white" weight="1"/>		<cm color="brown" weight="1"/>			<cm color="orange" weight="1"/>	<cm color="yellow" weight="1"/>	<cm color="gold" weight="1"/>	<cm color="green" weight="1"/>	<cm color="forest" weight="1"/>												</cmr>
+      <cmr color="orange" weight="8">	<cm color="black" weight="2"/>	<cm color="silver" weight="1"/>	<cm color="white" weight="1"/>		<cm color="brown" weight="2"/>		<cm color="chocolate" weight="1"/>				<cm color="green" weight="2"/>	<cm color="forest" weight="2"/>	<cm color="aguamarine" weight="2"/>	<cm color="cyan" weight="1"/>	<cm color="turquoise" weight="1"/>	<cm color="azure" weight="1"/>	<cm color="blue" weight="2"/>	<cm color="navy" weight="1"/>	<cm color="teal" weight="1"/>	<cm color="indigo" weight="2"/>	<cm color="purple" weight="2"/>		<cm color="magenta" weight="1"/>	</cmr>
+      <cmr color="yellow" weight="9">	<cm color="black" weight="3"/>			<cm color="red" weight="3"/>	<cm color="brown" weight="2"/>		<cm color="chocolate" weight="1"/>				<cm color="green" weight="3"/>	<cm color="forest" weight="2"/>				<cm color="azure" weight="2"/>	<cm color="blue" weight="3"/>	<cm color="navy" weight="3"/>	<cm color="teal" weight="1"/>	<cm color="indigo" weight="2"/>	<cm color="purple" weight="2"/>		<cm color="magenta" weight="1"/>	</cmr>
+      <cmr color="gold" weight="10">	<cm color="black" weight="3"/>			<cm color="red" weight="3"/>	<cm color="brown" weight="2"/>		<cm color="chocolate" weight="1"/>				<cm color="green" weight="3"/>	<cm color="forest" weight="2"/>			<cm color="turquoise" weight="1"/>	<cm color="azure" weight="2"/>	<cm color="blue" weight="1"/>	<cm color="navy" weight="3"/>	<cm color="teal" weight="1"/>	<cm color="indigo" weight="2"/>	<cm color="purple" weight="2"/>		<cm color="magenta" weight="3"/>	</cmr>
+      <cmr color="green" weight="8">	<cm color="black" weight="1"/>	<cm color="silver" weight="3"/>	<cm color="white" weight="3"/>	<cm color="red" weight="1"/>	<cm color="brown" weight="1"/>	<cm color="tan" weight="1"/>	<cm color="chocolate" weight="1"/>	<cm color="orange" weight="2"/>	<cm color="yellow" weight="3"/>	<cm color="gold" weight="3"/>			<cm color="aguamarine" weight="1"/>	<cm color="cyan" weight="1"/>	<cm color="turquoise" weight="1"/>		<cm color="blue" weight="1"/>	<cm color="navy" weight="1"/>					<cm color="magenta" weight="1"/>	</cmr>
+      <cmr color="forest" weight="6">		<cm color="silver" weight="1"/>	<cm color="white" weight="2"/>	<cm color="red" weight="1"/>	<cm color="brown" weight="1"/>	<cm color="tan" weight="1"/>	<cm color="chocolate" weight="1"/>	<cm color="orange" weight="2"/>	<cm color="yellow" weight="2"/>	<cm color="gold" weight="2"/>			<cm color="aguamarine" weight="1"/>	<cm color="cyan" weight="1"/>	<cm color="turquoise" weight="1"/>	<cm color="azure" weight="1"/>	<cm color="blue" weight="1"/>						<cm color="magenta" weight="1"/>	</cmr>
+      <cmr color="aguamarine" weight="4">	<cm color="black" weight="2"/>	<cm color="silver" weight="1"/>	<cm color="white" weight="1"/>					<cm color="orange" weight="2"/>			<cm color="green" weight="1"/>	<cm color="forest" weight="1"/>					<cm color="blue" weight="1"/>	<cm color="navy" weight="1"/>			<cm color="purple" weight="1"/>		<cm color="magenta" weight="1"/>	</cmr>
+      <cmr color="cyan" weight="3">	<cm color="black" weight="1"/>			<cm color="red" weight="1"/>				<cm color="orange" weight="1"/>			<cm color="green" weight="1"/>	<cm color="forest" weight="1"/>					<cm color="blue" weight="1"/>	<cm color="navy" weight="1"/>			<cm color="purple" weight="1"/>		<cm color="magenta" weight="1"/>	</cmr>
+      <cmr color="turquoise" weight="4">	<cm color="black" weight="2"/>			<cm color="red" weight="1"/>				<cm color="orange" weight="1"/>		<cm color="gold" weight="1"/>	<cm color="green" weight="1"/>	<cm color="forest" weight="1"/>				<cm color="azure" weight="1"/>	<cm color="blue" weight="1"/>	<cm color="navy" weight="2"/>			<cm color="purple" weight="1"/>		<cm color="magenta" weight="1"/>	</cmr>
+      <cmr color="azure" weight="6">	<cm color="black" weight="2"/>	<cm color="silver" weight="3"/>	<cm color="white" weight="1"/>	<cm color="red" weight="2"/>				<cm color="orange" weight="1"/>	<cm color="yellow" weight="2"/>	<cm color="gold" weight="2"/>		<cm color="forest" weight="1"/>			<cm color="turquoise" weight="1"/>			<cm color="navy" weight="1"/>			<cm color="purple" weight="1"/>		<cm color="magenta" weight="1"/>	</cmr>
+      <cmr color="blue" weight="7">	<cm color="black" weight="1"/>	<cm color="silver" weight="2"/>	<cm color="white" weight="3"/>	<cm color="red" weight="3"/>				<cm color="orange" weight="2"/>	<cm color="yellow" weight="3"/>	<cm color="gold" weight="1"/>	<cm color="green" weight="1"/>	<cm color="forest" weight="1"/>	<cm color="aguamarine" weight="1"/>	<cm color="cyan" weight="1"/>	<cm color="turquoise" weight="1"/>								<cm color="magenta" weight="1"/>	</cmr>
+      <cmr color="navy" weight="7">		<cm color="silver" weight="2"/>	<cm color="white" weight="1"/>	<cm color="red" weight="1"/>		<cm color="tan" weight="1"/>		<cm color="orange" weight="1"/>	<cm color="yellow" weight="3"/>	<cm color="gold" weight="3"/>	<cm color="green" weight="1"/>		<cm color="aguamarine" weight="1"/>	<cm color="cyan" weight="1"/>	<cm color="turquoise" weight="2"/>	<cm color="azure" weight="1"/>							<cm color="magenta" weight="2"/>	</cmr>
+      <cmr color="teal" weight="3">	<cm color="black" weight="2"/>	<cm color="silver" weight="1"/>	<cm color="white" weight="1"/>	<cm color="red" weight="1"/>				<cm color="orange" weight="1"/>	<cm color="yellow" weight="1"/>	<cm color="gold" weight="1"/>											<cm color="purple" weight="1"/>		<cm color="magenta" weight="1"/>	</cmr>
+      <cmr color="indigo" weight="4">	<cm color="black" weight="1"/>	<cm color="silver" weight="2"/>	<cm color="white" weight="2"/>	<cm color="red" weight="1"/>				<cm color="orange" weight="2"/>	<cm color="yellow" weight="2"/>	<cm color="gold" weight="2"/>														</cmr>
+      <cmr color="purple" weight="6">	<cm color="black" weight="2"/>	<cm color="silver" weight="2"/>	<cm color="white" weight="2"/>	<cm color="red" weight="1"/>				<cm color="orange" weight="2"/>	<cm color="yellow" weight="2"/>	<cm color="gold" weight="2"/>			<cm color="aguamarine" weight="1"/>	<cm color="cyan" weight="1"/>	<cm color="turquoise" weight="1"/>	<cm color="azure" weight="1"/>			<cm color="teal" weight="1"/>			<cm color="hotpink" weight="1"/>		</cmr>
+      <cmr color="hotpink" weight="1">	<cm color="black" weight="1"/>		<cm color="white" weight="1"/>																		<cm color="purple" weight="1"/>			</cmr>
+      <cmr color="magenta" weight="7">	<cm color="black" weight="1"/>	<cm color="silver" weight="3"/>	<cm color="white" weight="2"/>					<cm color="orange" weight="1"/>	<cm color="yellow" weight="1"/>	<cm color="gold" weight="3"/>	<cm color="green" weight="1"/>	<cm color="forest" weight="1"/>	<cm color="aguamarine" weight="1"/>	<cm color="cyan" weight="1"/>	<cm color="turquoise" weight="1"/>	<cm color="azure" weight="1"/>	<cm color="blue" weight="1"/>	<cm color="navy" weight="2"/>	<cm color="teal" weight="1"/>					</cmr>
+    </color-match-table>																								
+
+</name-elements>

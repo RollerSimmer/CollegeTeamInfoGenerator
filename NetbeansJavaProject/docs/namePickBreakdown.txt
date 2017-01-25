@@ -1,0 +1,47 @@
+100% all names
+    64.7% public
+        19.4% directional state
+            13% axial-direction + state
+            6.4% diagonal-direction + state
+        25.9% public system
+            11.7% state            
+            11.7% state + specialty
+                7.6% state + "State"
+                1.2% state + "A&M"
+                2.3% state + "Tech"
+                0.4% state + "Poly"
+                0.2% state + "School of Mines"
+                0.1% state + "A&T"
+            1.3% person
+                ...
+            1.3% state nickname                    
+        19.4% urban public 
+            9.7% city
+            1% city + specialty
+                ...
+            7.8% public system + "-" + city
+                ...
+            1% city nickname
+    33.8% private
+        3.4% private base + "College"
+            ...
+        30.4% private base
+            1.5% city
+            1.5% state
+            12.1% religious
+                4% symbol
+                4% geographic denomination
+                4.1% saint                 
+            13.4% person
+                4.4% first + last name
+                9% last name only
+            0.9% city nickname
+            0.9% state nickname
+    1.5% military
+        0.2% "Navy
+        0.2% "Army"
+        0.2% "Air Force"
+        0.2% "Coast Guard"
+        0.2% "The Citadel"
+        0.4% state + "Military Institute"
+

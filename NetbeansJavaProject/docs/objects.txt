@@ -1,0 +1,41 @@
+( Symbol key:
+   {} closes block of related elements
+   () closes a list of method parameters, or offers parenthetical remark
+   // comment   
+   + public
+   - private
+   # protected
+   / derived (can be combined with one of the others)
+   ~ package 
+   <- calls to methods in another class
+   -> calls to methods in same class
+   )
+
+objects in team name generator
+
+school information class:
+    {
+    - school name, which is a string
+    - mascot name, which is a string
+    - city name, which is a string
+    - state ID, which is an integer index into state table (50+, including DC and territories)
+    - type, which can either be private or public
+    + method to build school name randomly (no params)
+        <- calls method to construct school name in school name factory class
+    + method to build mascot name randomly (no params)
+        <- calls method to construct mascot name in mascot name factory class
+    }   
+
+mascot name factory class:
+    {
+    +  method to construct school name (no params)
+       -> calls method to construct 
+    }   
+
+school name factory class:
+    {
+    +  method to construct school name (no params)
+    
+    }   
+
+

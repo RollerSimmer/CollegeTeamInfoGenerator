@@ -1,0 +1,209 @@
+-- 2015-10-13,01:21 -- 
++ started netbeans project
++ have the data xml file built from spreadsheet copy and paste
+
+-- 2015-10-15,00:18 --
++ added a percentage to state specifying its spanish/latin
+  presence
++ added weight for presence of 6 major religious denominations
+  that make schools  
++ added person name lists to XML data file
++ added team name lists to XML data file
++ added "specific team nickname" to state entries
++ in state class, add list of city indexes into global city list
++ added college team information factory, still in progress
++ add a total city list weight for the weight tallies
+  for each state and city
+# tally is prevcity.tally + city.weight, and city.weight
+  for first list entry
++ make map of state abbreviation strings to state integer IDs 
++ when loading list of cities, map its state abbreviation to ID, 
+  and add city's ID to entry of state with the mapped state ID
++ added a bunch of enums for religion, operators, and name origins
++ added "picker" classes to replace lists; they have 
+  weight summation built in for each list addition, and
+  pick() functions  
++ added my own random class for easier random number generation;
+  put it in the package i created for utilities
++ made two different sets of person names, spanish/latin and 
+  american
+
+-- 2015-10-18,00:42 --
++ finished location picker
++ added a template class for picker lists
++ built state and city lists from xml data
++ built name lists from xml data 
+
+-- 2015-10-19,21:32 --
++ build specialty list from xml
++ build symbol adjective list from xml
++ build symbol noun list from xml
++ build team adjective list from xml
++ build team nickname list from xml  
+
+-- 2015-10-20,01:11 --
++ debugged initialization of factory so that no exceptions occur
+# there may still be unforseen errors
+
+-- 2015-10-21,19:05 --
++ added content printers for each list picker in the team information factory
++ fixed name reading from xml so that all names do not go to spanish list 
+  (due to switch value error)
++ now the city data class contains the state abbrevation as a string 
+  in addition to the state ID that it already had
+  
+  
+-- 2015-10-24,23:15 --
++ added color table and definition list to xml data file
+
+-- 2015-10-26,02:15 --
++ added color pair class, and added smart color swap in that class
++ loaded color match table from xml
++ changed all color name map key strings to upper case
+# color stuff below
++ for predefined adjective and nickname colors, matched with closest 
+  color in color table to find a match
++ used a color pair table to pick good color combinations
++ added system flagship flag to college team info to 
+  tell whether or not to add a hyphen-city suffix or not
+# flagships should NOT have a hyphen-city suffix
++ constructed university initialisms from the full university
+  name, using only the capital letters and no punctuation
++ using only initialisms for long full names
++ now have a "full name" in the team info which includes "University of"
+  prefix or " University" suffix
++ almost done with making school with grammar
+
+-- 2015-10-27,01:12 --
++ made sure "Centralern" is never a directional adjective
++ tested name results
++ fixed listpicker's pick method and its binary search algortithm
++ fixed geographic denomination term to not have a space in front
+  if no state is in name
++ added ability to make team into HTML table row
++ added random variance from base colors for color variety
++ tested school name construction throroughly
++ if both colors are over white threshold, app will make the primary 
+  one darker
++ fixed city-name privates to have a university suffix or prefix
++ when building names, made sure to select state first, then city,
+  then public or private, and finally regional, urban or flagship 
+  (if public), or denominational or secular (if private)
++ when city, state, and public/private and denominatonal/secular
+  are selected, it makes name with them as arguments or data members 
+  in a name builder class.  
++ fixed saint name maker so that 's possessives do not go with 
+  "University of "
++ made acronyms/initialisms for long school names
+
+-- 2015-10-28,01:42 --
++ East and north were getting mixed up in name
+  generator;  fixed it.
++ fixed public name generator so that more weight is in 
+  U or state form.
++ nickname colors were being improperly read from xml, looking 
+  for "green" instead of "pref-green" and "blue" instead of 
+  "pref-green"; fixed it.
++ added a university position field to the specialty entries 
+  in the xml file, as well as the specialty data class
++ fixed "school of mines" specialty so that university is not added to
+  the name, as well as other specialty errors, with that action
++ now considers specific team nicknames for states, if they exist,
+  when making a team nickname
++ fixed private school name generation so that "university of state"
+  is far less common for private schools (only one that I can
+  think of is pennsylvania)
++ edited xml loader so that populations for states and cities
+  are read
+
+-- 2015-10-29,00:24 --
+# school list
++ made school list class with a built-in uniqueness tester; any 
+  produced names that are not unique get rejected.
++ made color-only nicknames possible
++ added enrollment member to team info
++ worked state weight (population), city weight (population), and
+  religious representation (if applicable) into enrollment\
++ also worked in flagship status into enrollment
++ set urban and regional flags in team data when making names
++ changed adjective-only nicknames to color-only, remove actions
++ finished college team information factory
+
+-- 2015-11-05,23:47 --
++ display the generated team list as a group of JavaFX controls, 
+  as well as a data list in a text box
++ added minimum and maximum enrollment to team list adder
+
+-- 2015-11-06,14:17 --
++ adjusted enrollment estimator to produce more realistic values
++ made colors in GUI team table wider
++ fixed enrollment estimator so that smaller states (under 5M) have enrollments over 20K
++ made military academies more "elite" in terms of enrollment sizes
++ labeled bottom buttons and text fields
+
+-- 2015-11-08,22:40 --
++ made helmets and added them to the GUI display list for generated teams
++ auto fitted grid to window size.
+
+-- 2015-11-09,17:59 --
++ handled window resize event by redrawing grid.
++ sorted rows by category after pressing column label button
++ changed GridPane grid to TableView table
++ re-fixed possessive saints to not have "university of " school name form
++ re-fixed "Golden" standalone adjective names to be simply "Gold"
+
+-- 2015-11-09,18:41 --
++ shrinked enrollment of urban schools (make city domain smaller, like half 
+  city pop)
++ made single directions in directional schools more common
+
+-- 2015-11-09,21:00 --
++ made a pie chart showing breakdown of school name probabilty;
+  each branch level adds more subcharts
++ practically done with utility
+
+-- 2015-11-10,16:55 --
++ fixed color probabilities in data XML and spreadsheet;
+  need less green, pink, and purple, and more more blue and red
++ changed indigo to purple, purple/violet to maroon, and 
+  reduced the lightness of magenta in color definitions
+* deleted "ougars" nickname row from data xml
++ fixed colorutil's shadeable method to a smaller range
++ fixed empty strings in color matches
++ helmet shell color can be either primary or secondary
++ helmet facemask color will be the color opposite the shell
+  color
+  
+-- 2015-11-11,19:38 --
++ made a factory class specifically for making a school name
+
+-- 2015-11-13, 04:15 --
++ added specialty enum to school info
++ made dynamic pick probabilities in xml file
+
+
+-- 2015-11-25, 12:48 --
++ if a team's two colors are very similar, made them different
++ made enrollment less random, or not random at all
+# looking good.  Almost done
+
+-- today --
+(add things done here)
+
+-- to-do --
+# college team information factory
+# xml
+- handle errors in xml loading where no entries of a needed tag
+  exist
+- when loading a file, if no affiliations are found, just 
+  add randomly weighted entries for each operator, or 
+  come up with hard coded weights
+- when loading a file, if no operators are found, just add randomly 
+  weighted entries for each operator, or come up with 
+  hard coded weights
+# gui
+# output
+- save team list as html
+# misc
+- fully document methods and classes
+

@@ -1,0 +1,36 @@
+makeSchoolName
+    makePrivateUniversityTerm
+        makePrivateSchoolBaseTerm    
+            makeCityTerm
+            makeStateTerm            
+            makeReligiousTerm
+                makeSymbolTerm
+                makeGeoDenomTerm
+                    makeAffiliationTerm
+                makeSaintTerm
+                    makeFirstNameTerm
+            makePersonTerm
+                makeSurnameTerm            
+                makeFirstNameTerm
+            makeCityNicknameTerm
+            makeStateNicknameTerm
+    makePrivateCollegeTerm
+        makePrivateSchoolBaseTerm
+            ...
+    makeMilitarySchoolName
+    makePublicUniversityName
+        makeDirStateTerm
+            makeDirectionTerm
+            makeStateTerm            
+        makePublicSystemTerm
+            makeStateTerm
+            makeSpecialtyTerm
+            makePersonTerm
+            makeStateNicknameTerm            
+        makeUrbanPublicTerm
+            makeCityTerm
+            makeSpecialtyTerm
+            makePublicSystemTerm
+                ...
+            makeCityNicknameTerm
+

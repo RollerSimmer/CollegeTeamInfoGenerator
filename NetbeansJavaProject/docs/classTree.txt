@@ -1,0 +1,55 @@
+
+** Tree organization of classes by dependency ** 
+( + done, - not done, * working on it, 
+  (class) means link hasn't been made in code yet )
+  
+
+  
+
+*CtiFactory
+    *LocationPicker
+        +CityData
+        +StateData        
+            +CityIndex
+    -PersonNamePicker
+        *NamePickerList
+        +PersonName
+    +SpecialtyPicker           
+    +CollegeTeamInfo
+    
+-DataReader
+    (CtiGenerator)
+    
+-CtigApp
+    (CtiGenerator)
+    (CollegeTeamInfo)
+    
+** class method tree **
+( + done, - not done, * working on it
+  (method) means link hasn't been made in code yet )
+
+*CtiFactory
+    -produce
+    
++SpecialtyPicker (singleton)
+    +addSpecialty
+    +getlist
+    +pick
+    +getInstance
+    +clearlist
+
+*LocationPicker
+    +clearcities
+    +clearstates
+    +addcity
+    +addstate   
+    -pickstate
+    -pickCityInState
+
+*PersonNamePicker
+    +pickGender
+    +pickNameOrigin
+    **pickname
+
+    
++CollegeTeamInfo

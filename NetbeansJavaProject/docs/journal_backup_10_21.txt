@@ -1,0 +1,75 @@
+-- 2015-10-13,01:21 -- 
++ started netbeans project
++ have the data xml file built from spreadsheet copy and paste
+
+-- 2015-10-15,00:18 --
++ added a percentage to state specifying its spanish/latin
+  presence
++ added weight for presence of 6 major religious denominations
+  that make schools  
++ added person name lists to XML data file
++ added team name lists to XML data file
++ added "specific team nickname" to state entries
++ in state class, add list of city indexes into global city list
++ added college team information factory, still in progress
++ add a total city list weight for the weight tallies
+  for each state and city
+# tally is prevcity.tally + city.weight, and city.weight
+  for first list entry
++ make map of state abbreviation strings to state integer IDs 
++ when loading list of cities, map its state abbreviation to ID, 
+  and add city's ID to entry of state with the mapped state ID
++ added a bunch of enums for religion, operators, and name origins
++ added "picker" classes to replace lists; they have 
+  weight summation built in for each list addition, and
+  pick() functions  
++ added my own random class for easier random number generation;
+  put it in the package i created for utilities
++ made two different sets of person names, spanish/latin and 
+  american
+
+-- 2015-10-18,00:42 --
++ finished location picker
++ added a template class for picker lists
++ built state and city lists from xml data
++ built name lists from xml data 
+
+-- 2015-10-19,21:32 --
++ build specialty list from xml
++ build symbol adjective list from xml
++ build symbol noun list from xml
++ build team adjective list from xml
++ build team nickname list from xml  
+
+-- 2015-10-20,01:11 --
++ debugged initialization of factory so that no exceptions occur
+# there may still be unforseen errors
++ added content printers for each list picker in the team information factory
++ fixed name reading from xml so that all names do not go to spanish list 
+  (due to switch value error)
+  
+-- today --
+(add things done here)
+
+-- to-do --
+- when building names, be sure to select state first, then city,
+  then public or private, and finally regional, urban or flagship 
+  (if public), or denominational or secular (if private)
+- when city, state, and public/private and denominatonal/secular
+  are selected, make name with them as arguments or data members 
+  in a name builder class.  
+- (optional) make acronyms/initialisms for long school names
+- display the generated team list as a group of JavaFX controls, 
+  as well as a data list in a text box
+* finish college team information factory
+- when loading a file, if no operators are found, just add randomly 
+  weighted entries for each operator, or come up with 
+  hard coded weights
+- when loading a file, if no affiliations are found, just 
+  add randomly weighted entries for each operator, or 
+  come up with hard coded weights
+* change state ID to mappable two-letter state abbrevation string to make
+  loading from XML simpler
+* load city list before state list so states know what city IDs 
+  are
+
